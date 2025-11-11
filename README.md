@@ -10,35 +10,35 @@ sim/   → Waveform configuration (.wcfg)
 
 ⚙️ How to Run the Project
 
-Open Xilinx Vivado.
+1.Open Xilinx Vivado.
 
-Create a new project.
+2.Create a new project.
 
-Add the Verilog files from src/.
+3.Add the Verilog files from src/.
 
-Add the testbench files from tb/.
+4.Add the testbench files from tb/.
 
-Run behavioral simulation.
+5.Run behavioral simulation.
 
-(Optional) Load the .wcfg file from the sim/ folder to view the waveform.
+6.(Optional) Load the .wcfg file from the sim/ folder to view the waveform.
 
 ✨ Features
 
-Implements a fully functional traffic light sequence (Red → Yellow → Green).
+- Implements a fully functional traffic light sequence (Red → Yellow → Green).
 
-Designed in Verilog HDL and simulated using Vivado Simulator.
+- Designed in Verilog HDL and simulated using Vivado Simulator.
 
-Includes testbench verification with timing-based transitions.
+- Includes testbench verification with timing-based transitions.
 
-Demonstrates basic FSM (Finite State Machine) design concepts.
+- Demonstrates basic FSM (Finite State Machine) design concepts.
 
 📈 Future Scope
 
-Add pedestrian crossing functionality.
+- Add pedestrian crossing functionality.
 
-Implement parameterized timing control.
+- Implement parameterized timing control.
 
-Extend design for multiple intersections.
+- Extend design for multiple intersections.
 
 👩‍💻 Developer
 
